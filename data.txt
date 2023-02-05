@@ -1,0 +1,45 @@
+peeps {
+
+	Shey
+	Dominika
+	Paolo
+	Ali
+	Isa
+	Antonia
+	Nariman
+	Sara
+	Oeghan
+	Santi
+	Emily
+	Kenneth
+	Emily
+	Kenneth
+	Maya
+	Martijn
+	Linda
+	Sewa
+	Tim
+	Noa
+	Kees
+
+}
+
+Tasks {
+	
+	Kitchen	M		: 2
+	Kitchen T		: 2
+	Household		: 1
+	Bathroom		: 2
+	Men's Toilet	: 1
+	Women's Toilet	: 1
+	Hallway			: 3
+	Stock			: 2
+	Trash			: 4
+	Finers			: 2
+	Wild card		: 1
+}
+
+External Tasks {
+	TWA person		:1
+	Hospi peep		:2
+}
