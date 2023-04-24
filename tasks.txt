@@ -6,6 +6,6 @@ Men_toilet 1
 Women_toilet 1
 Hallway 3
 Stock 2
+Finer 1
 Trash 4
-Finers 2
 Wild_card 1

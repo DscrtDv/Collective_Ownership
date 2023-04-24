@@ -29,7 +29,7 @@ def populatePerson(fd):
         for line in file:
             line = line.strip()
             temp = line.split(" ")
-            personArray.append(Person(temp[0], temp[1], temp[2], temp[3]))
+            personArray.append(Person(temp[0], temp[1], temp[2], None))
         file.close()
     return personArray
 
@@ -64,7 +64,7 @@ def assignTask(list):
             person.current_task = task.name
             result.append(person)
             #print(person.name, person.current_task)
-    matchRemainingTask(list);
+    #matchRemainingTask(list);
 
 def defineTaskLess(list):
     taskLess = []
@@ -82,13 +82,14 @@ def defineActorLess():
 
 def matchRemainingTask(list):
     remain_t = defineActorLess()
-    remain_a = defineTaskLess(list);
-    for person in remain_a:
-        rand_index = random.randint(0, len(remain_t) - 1)
-        task = remain_t.pop(rand_index)
-        task.spots.append(person.name)
-        person.current_task = task.name
-        result.append(person)
+    remain_a = defineTaskLess(list)
+    if remain_t:
+        for person in remain_a:
+            rand_index = random.randint(0, len(remain_t) - 1)
+            task = remain_t.pop(rand_index)
+            task.spots.append(person.name)
+            person.current_task = task.name
+            result.append(person)
 
 def newCleaningSchedule(list):
     for person in list:
@@ -99,16 +100,17 @@ def newCleaningSchedule(list):
             person.current_task = None;
     assignTask(list)
 
-personArray = populatePerson("first.txt")
+personArray = populatePerson("current.txt")
 taskArray = populateTask("tasks.txt")
 result = []
 newCleaningSchedule(personArray)
 
-fd = open("schedule.txt", "w")
+fd = open("schedule2.txt", "w")
 
-if (len(result) == 19):
+if (len(result) == 18):
     for person in result:
         line = person.name + " " + person.current_task + " " + person.prev_task + " " + person.prev_task2 + "\n"
+        print(line);
         fd.write(line)
 fd.close()
 
