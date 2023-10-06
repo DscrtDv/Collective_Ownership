@@ -29,7 +29,7 @@ def populatePerson(fd):
         for line in file:
             line = line.strip()
             temp = line.split(" ")
-            personArray.append(Person(temp[0], temp[1], temp[2], None))
+            personArray.append(Person(temp[0], temp[1], temp[2], temp[3]))
         file.close()
     return personArray
 
@@ -64,7 +64,7 @@ def assignTask(list):
             person.current_task = task.name
             result.append(person)
             #print(person.name, person.current_task)
-    #matchRemainingTask(list);
+    matchRemainingTask(list)
 
 def defineTaskLess(list):
     taskLess = []
@@ -100,14 +100,14 @@ def newCleaningSchedule(list):
             person.current_task = None;
     assignTask(list)
 
-personArray = populatePerson("current.txt")
+personArray = populatePerson("schedule.txt")
 taskArray = populateTask("tasks.txt")
 result = []
 newCleaningSchedule(personArray)
 
-fd = open("schedule2.txt", "w")
+fd = open("schedule_1.txt", "w")
 
-if (len(result) == 18):
+if (len(result) <= 20):
     for person in result:
         line = person.name + " " + person.current_task + " " + person.prev_task + " " + person.prev_task2 + "\n"
         print(line);

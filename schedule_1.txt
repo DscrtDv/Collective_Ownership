@@ -1,0 +1,29 @@
+Elena Kitchen_monday Trash Stock
+Martijn Kitchen_monday Finer Hallway
+Dominika Kitchen_thursday Hallway Household
+Marie Kitchen_thursday Trash undefined
+
+Nariman Kitchen_floor Stock Hallway
+
+Kenneth Household Men_toilet undefined
+
+Santi Bathroom Stock Kitchen_tuesday
+Cata Bathroom Kitchen_thursday undefined
+
+Tim Men_toilet Bathroom Stock
+Leni Women_toilet Household undefined
+
+EmilyII Hallway Kitchen_floor Trash
+Maya Hallway Trash Finer
+
+Ali Stock Trash Kitchen_monday
+Isa Stock Bathroom Kitchen_tuesday
+
+Shey Finer Women_toilet Bathroom
+EmilyI Finer Kitchen_monday undefined
+
+Eoghan Trash Kitchen_monday Wild_card
+Linda Trash Kitchen_thursday Women_toilet
+Paolo Trash Finer undefined
+Kees Trash Hallway Men_toilet
+

@@ -1,11 +1,11 @@
 Kitchen_monday 2
-Kitchen_tuesday 2
+Kitchen_thursday 2
+Kitchen_floor 1
 Household 1
 Bathroom 2
 Men_toilet 1
 Women_toilet 1
-Hallway 3
+Hallway 2
 Stock 2
-Finer 1
+Finer 2
 Trash 4
-Wild_card 1
