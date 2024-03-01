@@ -100,12 +100,12 @@ def newCleaningSchedule(list):
             person.current_task = None;
     assignTask(list)
 
-personArray = populatePerson("schedule.txt")
+personArray = populatePerson("schedule_24/02.txt")
 taskArray = populateTask("tasks.txt")
 result = []
 newCleaningSchedule(personArray)
 
-fd = open("schedule_1.txt", "w")
+fd = open("schedule_24/03.txt", "w")
 
 if (len(result) <= 20):
     for person in result:
