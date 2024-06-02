@@ -1,0 +1,28 @@
+Santi Kitchen_monday Kitchen_floor Stock
+Elena Kitchen_monday Hallway Men_toilet
+Isa Kitchen_thursday Stock Kitchen_monday
+Tim Kitchen_thursday Kitchen_floor Household
+
+Eoghan Kitchen_floor Men_toilet Kitchen_thursday
+Alie Kitchen_floor Women_toilet Stock
+
+Cata Household Hallway Trash
+
+KZ Bathroom Trash undefined
+Emily Bathroom Household Trash
+
+Gihan Men_toilet Kitchen_monday Bathroom
+Shey Women_toilet Stock Bathroom
+
+Dio Hallway Kitchen_thursday undefined
+Maya Hallway Trash Kitchen_monday
+Leni Hallway Bathroom Trash
+
+Doma Stock Bathroom Hallway
+Nari Stock Kitchen_floor Men_toilet
+
+Pao Finer Trash Kitchen_thursday
+
+Alfonso Trash Kitchen_thursday undefined
+Tony Trash Hallway Finer
+Kees Trash Finer Hallway
