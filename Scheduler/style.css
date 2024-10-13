@@ -1,0 +1,190 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Task and People lists */
+#task-list, #people-list {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+input[type="text"], input[type="number"], button {
+    padding: 8px;
+    margin: 10px 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Task and People tables */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    vertical-align: middle;
+}
+
+input[type="number"] {
+    width: 50px;
+    text-align: center;
+}
+
+/* Center-aligned task list and buttons */
+#tasks li, #people li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+#tasks li button, #people li button {
+    margin-left: 20px;
+}
+
+/* People list styling */
+#people-list {
+    margin-bottom: 20px;
+}
+#people-list {
+    margin-bottom: 20px;
+}
+
+#people li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+#people li span:first-child {
+    flex-grow: 1;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: bold;  /* Make the name bold */
+}
+
+#people li button {
+    margin-left: 20px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#people li button:hover {
+    background-color: #c9302c;
+}
+
+/* Styling for the "Generate Schedule" button */
+#generate-schedule-btn {
+    margin: 20px 0;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#generate-schedule-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the generated schedule table */
+#schedule-table-container {
+    margin-top: 20px;
+}
+
+#schedule-table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#schedule-table-container th, #schedule-table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#schedule-table-container th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#schedule-table-container tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* Responsive table layout */
+@media screen and (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    td {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+
+    th {
+        display: none;
+    }
+}

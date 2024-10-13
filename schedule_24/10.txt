@@ -1,0 +1,22 @@
+Juniper Kitchen_monday Women_toilet Kitchen_floor
+Leni Kitchen_monday Kitchen_floor undefined
+Santi Kitchen_thursday Finer undefined
+Eoghan Kitchen_thursday Household undefined
+Cata Kitchen_floor Kitchen_monday undefined
+KZ Kitchen_floor Stock Trash
+Nari Household Hallway undefined
+Tony Bathroom Hallway Trash
+Gihan Bathroom Stock Women_toilet
+Shey Men_toilet Bathroom undefined
+
+Isa	Hallway Women_toilet undefined undefined
+Doma Hallway Kitchen_monday undefined
+Kees Hallway undefined undefined
+
+Elena Hallway Trash undefined
+Tim Stock Kitchen_thursday Men_toilet
+ali Stock Trash Kitchen_thursday
+Em Finer Bathroom undefined
+Pao	Kitchen_thursday Trash undefined undefined
+Rosa Trash undefined undefined
+Tristan Trash Men_toilet Bathroom

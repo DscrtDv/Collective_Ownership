@@ -1,0 +1,20 @@
+Leni Kitchen_monday Hallway Bathroom
+Shey Kitchen_monday Women_toilet Stock
+Maya Kitchen_thursday Hallway Trash
+Elena Kitchen_thursday Kitchen_monday Hallway
+Kees Kitchen_floor Trash Finer
+Eoghan Household Kitchen_floor Men_toilet
+Tristan Bathroom undefined undefined
+Fede Bathroom undefined undefined
+Tony Women_toilet Trash Hallway
+Tim Men_toilet Kitchen_thursday Kitchen_floor
+
+Alie Hallway Kitchen_floor Women_toilet
+Isa Hallway Kitchen_thursday Stock
+Nari Hallway Stock Kitchen_floor
+
+KZ Stock Bathroom Trash
+Pao Stock Finer Trash
+
+Gihan Trash Men_toilet Kitchen_monday
+Santi Trash Kitchen_monday Kitchen_floor

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Task Scheduler 4.1</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="task-list">
+			<h2>Tasks</h2>
+			<ul id="tasks"></ul>
+			<input type="text" id="new-task-name" placeholder="Task name" />
+			<input type="number" id="new-task-spots" placeholder="Spots" />
+			<button id="add-task-btn">Add Task</button>
+		</div>
+
+		<div id="people-list">
+			<h2>People</h2>
+			<ul id="people"></ul>
+			<input type="text" id="new-person-name" placeholder="Person name" />
+			<button id="add-person-btn">Add Person</button>
+		</div>
+
+		<table id="schedule">
+			<thead>
+				<tr><th>Task</th><th>Assigned People</th></tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+		
+		<!-- Button to trigger schedule generation -->
+		<div id="schedule-section">
+			<button id="generate-schedule-btn">Generate Schedule</button>
+			<div id="schedule-table-container">
+				<!-- The schedule table will be displayed here -->
+			</div>
+		</div>
+
+		<button id="confirmButton" style="display: none;">Confirm Schedule</button>
+		<script type="text/javascript" src="./main.js"></script>
+	</body>
+</html>
